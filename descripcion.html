@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Descripción del Evento</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      background: url('img/fondo.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(8px); /* EFECTO DESENFOQUE */
+      background-color: rgba(0, 0, 0, 0.5); /* oscurece un poco */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    .contenido {
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="contenido">
+      <h1>Descripción del Evento</h1>
+      <p>Este evento está diseñado para inspirarte, conectarte y entretenerte. Contamos con expertos en diferentes áreas, actividades interactivas, espacios gastronómicos y mucho más. ¡Ven a vivir una experiencia única!</p>
+    </div>
+  </div>
+</body>
+</html>
