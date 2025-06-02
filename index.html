@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Evento Increíble</title>
-  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -17,14 +17,27 @@
     <p>Este evento se llevará a cabo el 26 y 27 de julio de 2025 en el Finca en el Refugio Nika Nika, Recuerda llevar ropa comoda y tu corazon dispuesto. ¡Habrá música, comida y mucha diversión!</p>
   </section>
 
-  <section class="galeria">
-    <h2>Galería de Fotos</h2>
-    <div class="imagenes">
-  <img src="img/foto1.jpg" alt="Foto 1" />
-  <img src="img/foto2.jpg" alt="Foto 2" />
-  <img src="img/foto3.jpg" alt="Foto 3" />
+<section class="galeria">
+  <h2>Mira el Lugar de nuestro Camp</h2>
+  <div class="galeria-fotos">
+    <a href="img/Foto1.jpg" class="lightbox-trigger">
+      <img src="img/Foto1.jpg" alt="Foto 1" />
+    </a>
+    <a href="img/Foto2.jpg" class="lightbox-trigger">
+      <img src="img/Foto2.jpg" alt="Foto 2" />
+    </a>
+    <a href="img/Foto3.jpg" class="lightbox-trigger">
+      <img src="img/Foto3.jpg" alt="Foto 3" />
+    </a>
+  </div>
+</section>
+
+<!-- Lightbox container -->
+<div id="lightbox" class="lightbox" style="display:none;">
+  <span id="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Imagen ampliada" />
 </div>
-  </section>
+
 
   <section class="descripcion-boton">
   <a href="descripcion.html" target="_blank">
